@@ -1,0 +1,44 @@
+*{ margin: 0; padding: 0; }
+li{ list-style: none;}
+a{ color: #222 ; text-decoration: none; display: block; }
+a:hover{
+    color:red;
+} 
+
+/*common*/
+.d-flex { display: flex;}
+.container { width:1200px; margin: 0 auto;} 
+.rel{ position: relative;} 
+.abs{ position: absolute;} 
+.w1200{ width: 1200px;}
+.h100{ height: 100px;} 
+.h200{ height: 200px;} 
+.h300{ height: 300px;} 
+.ofh{ overflow:hidden }
+.m-auto{margin: 0 auto;}
+.justify-items{justify-items: center;}
+.justify-content-bew{justify-content: space-between}
+
+
+/* c형 */
+/* #hd{width: 200px; padding-left: 10px;}
+#gnb > li > a{display: block; height: 30px; line-height: 30px; padding-left: 20px;
+                font-size: 22px;}
+#gnb ul{background-color: tan; left: 100%;top: 0;width: 150px;height: 0;
+        overflow: hidden;transition: height 0.6s;
+        text-indent: 20px;}
+#gnb ul li{height: 40px;line-height: 40px;}
+#gnb ul li a{color: navy;}
+#gnb > li:hover ul{height: 120px;}
+#hd h1{margin-bottom: 40px;} */
+
+#hd{width: 200px; padding-left: 10px;}
+#gnb > li > a{display: block; height: 30px; line-height: 30px; padding-left: 20px;
+                font-size: 22px;}
+#gnb ul{background-color: tan; height: 0;
+        overflow: hidden;transition: height 0.6s;
+        text-indent: 20px;}
+#gnb ul li{height: 40px;line-height: 40px;}
+#gnb ul li a{color: navy;}
+#gnb > li:hover ul{height: 120px;}
+#hd h1{margin-bottom: 40px;}
